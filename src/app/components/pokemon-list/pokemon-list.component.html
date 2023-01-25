@@ -1,0 +1,4 @@
+<div *ngFor="let pokemon of pokemons">
+  <img [src]="pokemon.url">
+  <button (click)="onPokemonClick(pokemon)">{{ pokemon.name }}</button>
+</div>

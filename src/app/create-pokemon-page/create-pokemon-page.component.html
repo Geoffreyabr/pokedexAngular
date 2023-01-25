@@ -1,0 +1,11 @@
+<form (ngSubmit)="onSubmit()">
+
+  <input  type="text" [(ngModel)]="newPokemon.name" name="name" >
+
+  <input type="text" [(ngModel)]="newPokemon.url" name="imageUrl">
+
+  <input type="file" [(ngModel)]="newPokemon.description" name="description">
+
+  <button type="submit">Crée un Pokemon</button>
+
+</form>
